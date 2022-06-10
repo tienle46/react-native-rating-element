@@ -42,6 +42,7 @@ const IconBar = ({
   >
     {type === "custom" ? (
       <StyledImage
+        resizeMode="contain"
         source={filled ? selectedIconImage : emptyIconImage}
         margin={margin}
         size={size}
